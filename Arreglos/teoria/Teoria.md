@@ -2,7 +2,7 @@
 
 Los arrays, o arreglos, son colecciones de elementos del mismo tipo, accesibles a través de un índice. Son estáticos en tamaño, lo que significa que su tamaño no puede cambiar después de la creación.
 
-![alt text](image.png)
+![alt text](img/image.png)
 
 Ofrecen una forma sencilla pero potente de gestionar datos de manera eficiente, lo que los convierte en un concepto clave en la programación Java. Java proporciona diversos tipos para adaptarse a diferentes necesidades, desde arrays unidimensionales hasta multidimensionales.
 
@@ -28,7 +28,7 @@ Ofrecen una forma sencilla pero potente de gestionar datos de manera eficiente, 
 
 
 ## Operaciones básicas con arrays en Java
-![alt text](image-1.png)
+![alt text](img/image-1.png)
 
 # 
 ## SINTAXIS EN JAVA 

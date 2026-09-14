@@ -1,4 +1,3 @@
-// Nodo generico para una lista enlazada simple
 public class Nodo {
     private Object dato; // Variable para almacenar el dato del nodo
     private Nodo siguiente; // referencia al siguiente nodo

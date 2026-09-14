@@ -1,11 +1,10 @@
-package Pilas.Ejemplos.Pila_Estatica;
 //Codigo generico para una pila estatica, se puede usar para cualquier tipo de dato
 public class Pila_Estatica {
     private Object[] pila;
     private int cima;
     private int Tamanio;
 
-    public Pila_Estatica(int Tamanio) {
+public Pila_Estatica(int Tamanio) {
         this.Tamanio = Tamanio;
         this.pila = new Object[Tamanio];// Se crea un arreglo de objetos con el tamaño especificado
         this.cima = -1; // Indica que la pila está vacía

@@ -1,4 +1,3 @@
-package Pilas.Ejemplos.Pila_Estatica;
 
 public class Nodo {
     private Object dato;

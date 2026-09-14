@@ -11,7 +11,7 @@ A diferencia de una lista enlazada, donde cada elemento tiene como máximo un su
 💡 _**Analogía práctica (Más bien friki):** Piensa en el sistema de archivos de tu ordenador. El directorio raíz (/ en Linux o C:\ en Windows) es el nodo raíz. Cada carpeta es un nodo interno que puede contener más carpetas (hijos) y archivos (hojas). No puedes llegar a un archivo por dos rutas diferentes dentro de la misma estructura, exactamente como en un árbol._
 
 ## Datos importantes de los arboles
-![alt text](image.png)
+![alt text](img/image.png)
 
 Para comprender mejor que es un árbol comenzaremos explicando como está estructurado.
 
@@ -28,7 +28,7 @@ Para comprender mejor que es un árbol comenzaremos explicando como está estruc
 
 
 
-![alt text](image-1.png)
+![alt text](img/image-1.png)
 
 Los árboles a demas de los nodos tiene otras propiedades importantes que son utilizadas en diferente ámbitos los cuales son:
 
@@ -36,7 +36,7 @@ Los árboles a demas de los nodos tiene otras propiedades importantes que son ut
 ### Nivel:
  Nos referimos como nivel a cada generación dentro del árbol. 
  Por ejemplo, cuando a un nodo hoja le agregamos un hijo, el nodo hoja pasa a ser un nodo rama pero a demas el árbol crece una generación por lo que el Árbol tiene un nivel mas.Cada generación tiene un número de Nivel distinto que las demas generaciones.
-![alt text](image-2.png)
+![alt text](img/image-2.png)
 
 - Un árbol vacío tiene 0 niveles
 
@@ -53,7 +53,7 @@ La altura es calculado mediante recursividad tomando el nivel mas grande de los 
 - **altura** = max(altura(hijo1), altura(hijo2),altura(hijoN)) + 1
 #
  
-![alt text](image-3.png)
+![alt text](img/image-3.png)
 
 
 ### Peso: 
@@ -63,7 +63,7 @@ El peso se puede calcular mediante cualquier tipo de recorrido el cual valla con
 
 - **peso** = peso(hijo1) + peso(hijo2) + peso(hijoN)+ 1
 # 
-![alt text](image-4.png)
+![alt text](img/image-4.png)
 
 ### Orden: 
 El Orden de un árbol es el número máximo de hijos que puede tener un Nodo.
@@ -72,7 +72,7 @@ Notemos que un Árbol con Orden = 1 no tendría sentido ya que seria una estruct
 
 Este valor no lo calculamos, si no que ya lo debemos conocer cuando diseñamos nuestra estructura, ya que si queremos calcular esto lo que obtendremos es el grado.
 # 
-![alt text](image-5.png)
+![alt text](img/image-5.png)
 ### Grado: 
 El grado se refiere al número mayor de hijos que tiene alguno de los nodos del Árbol y esta limitado por el Orden, ya que este indica el número máximo de hijos que puede tener un nodo.
 El grado se calcula contando de forma recursiva el número de hijos de cada sub-árbol hijo y el numero de hijos del nodo actual para tomar el mayor, esta operación se hace de forma recursiva para recorrer todo el árbol.
@@ -80,7 +80,7 @@ El grado se calcula contando de forma recursiva el número de hijos de cada sub-
 - **Grado** = max(contarHijos(hijo1),contarHijos(hijo2), contarHijos(hijoN), contarHijos(this))
 #
 
-![alt text](image-6.png)
+![alt text](img/image-6.png)
 
 ### Sub-Árbol: 
 Conocemos como Sub-Árbol a todo Árbol generado a partir de una sección determinada del Árbol, Por lo que podemos decir que un Árbol es un nodo Raíz con N Sub-Árboles.

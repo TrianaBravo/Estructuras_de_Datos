@@ -8,7 +8,7 @@ La pila se utiliza en muchas aplicaciones, por ejemplo, en los editores de texto
 Seguramente también habrás observado los botones de retroceso y avance en los navegadores . Estas operaciones también se realizan mediante pilas.
 # 
 ## Operaciones fundamentales
-![alt text](image-1.png)
+![alt text](img/image-1.png)
 
 - **`push`:** inserta un elemento superior de la pila.
 -  **`pop`:** elimina el elemento superior de la pila.
@@ -19,7 +19,7 @@ Seguramente también habrás observado los botones de retroceso y avance en los 
 
 ## Análisis del funcionamiento
 
-![alt text](image-3.png)
+![alt text](img/image-3.png)
 
 #
 ## Pila estática vs. pila dinámica

@@ -5,10 +5,10 @@ La analogía más intuitiva es una fila de personas esperando en un banco o en u
 
 >💡**_FIFO vs LIFO: Mientras que una cola sigue el principio FIFO (el primero en entrar es el primero en salir), una pila sigue el principio LIFO (Last In, First Out — el último en entrar es el primero en salir). Ambas son restricciones del tipo abstracto lista, pero con reglas de acceso distintas._**
 
-![alt text](image-1.png)
+![alt text](img/image-1.png)
 
 ## Metodos más usados
-![alt text](image.png)
+![alt text](img/image.png)
 
 |**`add`:**| inserta un elemento en la cola.|
 |--|--|

@@ -1,9 +1,7 @@
-
 /**
  * Lista enlazada simple genérica.
  * Operaciones: insertar, eliminar, buscar, recorrer.
  */
-
 
 public class lista_simple {
     private Nodo cabeza; // Primer nodo de la lista

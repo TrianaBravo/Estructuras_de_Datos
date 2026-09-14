@@ -1,4 +1,3 @@
-package Colas.Ejemplos.Cola_Estatica;
 
 public class Nodo {
     private Object dato; // Dato que almacena el nodo

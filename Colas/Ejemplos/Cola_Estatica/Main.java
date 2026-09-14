@@ -1,5 +1,3 @@
-package Colas.Ejemplos.Cola_Estatica;
-
 public class Main {
     public static void main(String[] args) {
         // Crear una cola estática con capacidad para 5 nodos

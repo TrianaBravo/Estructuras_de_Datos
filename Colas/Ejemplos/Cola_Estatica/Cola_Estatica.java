@@ -1,4 +1,3 @@
-package Colas.Ejemplos.Cola_Estatica;
 
 public class Cola_Estatica {
     // Atributos de la clase Cola_Estatica

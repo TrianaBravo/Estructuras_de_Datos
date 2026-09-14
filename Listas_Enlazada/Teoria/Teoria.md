@@ -5,7 +5,7 @@ Una lista enlazada (linked list) es una estructura de datos lineal formada por u
 - cabeza => Apunta a la primera casilla de la lista
 - cola => Apunta a la última casilla de la lista
 
-![alt text](image.png)
+![alt text](img/image.png)
 
 💡 _**Concepto clave:** Cada nodo de una lista enlazada conoce únicamente a su vecino inmediato. Para acceder al tercer elemento, es necesario pasar primero por el primero y el segundo. Esta es la diferencia fundamental con un array, donde se accede a cualquier posición directamente mediante su índice._
 
@@ -15,15 +15,15 @@ El nodo es el bloque de construcción básico de toda lista enlazada. Cada nodo 
 
 La naturaleza autorreferencial de los nodos permite un recorrido y manipulación eficientes de los datos dentro de la lista enlazada. La estructura se puede implementar utilizando clases o arreglos. 
 
-![alt text](image-3.png)
+![alt text](img/image-3.png)
 
 ## Tipo de listas enlazadas
 
 Existen tres variantes principales de listas enlazadas, cada una con características y casos de uso específicos:
-![alt text](image-1.png)
+![alt text](img/image-1.png)
 #
 ## Lista enlazada simple
-![alt text](image-4.png)
+![alt text](img/image-4.png)
 ### Características de rendimiento de las listas enlazadas simples
 
 - **Recorrido:** El recorrido solo está permitido en una dirección (es decir, solo hacia adelante). Puedes avanzar por la lista, pero no puedes retroceder fácilmente.
@@ -45,7 +45,7 @@ Sin embargo, el headnodo sí tiene una nextreferencia que apunta al siguiente no
 
 - **Complejidad :** Las listas doblemente enlazadas ofrecen recorrido bidireccional y flexibilidad. Las operaciones de inserción y eliminación pueden requerir la actualización de referencias en ambas direcciones (hacia adelante y hacia atrás), lo que puede aumentar la complejidad y afectar potencialmente el rendimiento.
 
-![alt text](image-5.png)
+![alt text](img/image-5.png)
 
 ## Lista enlazada circular
 
@@ -57,12 +57,12 @@ Una lista enlazada circular es un tipo de lista enlazada donde el último nodo a
 - **Complejidad:** En las listas enlazadas circulares simples, las operaciones de inserción y eliminación requieren actualizar las referencias para mantener la estructura circular, lo que introduce una complejidad moderada en comparación con las listas enlazadas lineales.
 
 
-![alt text](image-6.png)
+![alt text](img/image-6.png)
 
 ## Diferencias de cada lista
 
 
-![alt text](image-2.png)
+![alt text](img/image-2.png)
 #
 
 # Diferencias entre un array y una lista enlazada
