@@ -14,24 +14,13 @@ public class Pila {
     }
 
     public void apilar(int dato) {
-        push(dato);
-    }
-
-    public int desapilar() {
-        if (vacio()) {
-            return -1;
-        }
-        return pop();
-    }
-
-    public void push(int dato) {
         Nodo nuevoNodo = new Nodo(dato);
         nuevoNodo.setSiguiente(cima);
         cima = nuevoNodo;
         tamaño++;
     }
     
-    public int pop() {
+    public int desapilar() {
         if (vacio()) {
             throw new IllegalStateException("La pila " + nombre + " está vacía");
         }
