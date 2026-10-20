@@ -1,0 +1,3 @@
+La empresa "TelNet Móvil" necesita implementar un sistema rápido de registro para nuevas líneas telefónicas. Como el almacenamiento debe ser estricto y en memoria principal para consultas ultra rápidas, el departamento de arquitectura de software ha decidido utilizar una Tabla Hash con Prospección Abierta (Sondeo Lineal).
+
+Tu misión es utilizar la estructura hash para registrar números de teléfono, manejar las colisiones cuando dos números caigan en la misma antena/índice, y evitar desbordamientos.
