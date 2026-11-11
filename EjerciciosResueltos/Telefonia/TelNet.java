@@ -1,7 +1,6 @@
 public class TelNet {
     public static void main(String[] args) {
         System.out.println("Sistema de registro telefonico");
-
         //creamos tabla hash pequeña
         Hash TelNet = new Hash(10);
 
@@ -13,6 +12,7 @@ public class TelNet {
         TelNet.ingresar("+56977778888");
         //numero que colisionaria
         TelNet.ingresar("+56999990000");
+        TelNet.ingresar("+56955556666");
 
         TelNet.mostrar();
 
